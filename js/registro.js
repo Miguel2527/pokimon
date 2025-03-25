@@ -10,7 +10,7 @@ function regis(){
     if(clave == clave2){
 
         alert("tas bien")
-        let registro = [nombre, edad, n_identificacion, correo, usuario, clave]
+        let registro = [nombre, edad, n_identificacion, correo, usuario, clave, clave2]
 
         console.log(registro) 
     }else{
