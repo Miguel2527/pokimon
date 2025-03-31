@@ -18,7 +18,8 @@ function regis(){
         alert("tas mal")
     }
 
-    let texto=document.getElementById("texto").textContent = registro[0]
-
-
+    let nombrep=document.getElementById("nombrep").textContent = registro[0]
+    let edadp=document.getElementById("edadp").textContent = registro[1]
+    let correop=document.getElementById("correop").textContent = registro[3]
+    let usuariop=document.getElementById("usuariop").textContent = registro[4]
 }
