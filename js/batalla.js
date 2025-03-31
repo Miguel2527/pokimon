@@ -54,4 +54,4 @@ function iniciarBatalla() {
     alert("¡Comienza la batalla!");
     Batalla.ataque(pokimons[3], pokimons[4]); 
     Batalla.defensa(pokimons[4]); 
-}
+} 
