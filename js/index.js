@@ -4,7 +4,7 @@ function Loguear(){
     let password = document.getElementById('password').value
 
     if(username=='rodolfo' && password=='123456'){
-        alert('usuario valido')
+        window.location.href = "adentro.html"
     }else{
         alert('usuario invalido')
     }

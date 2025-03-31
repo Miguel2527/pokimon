@@ -18,7 +18,7 @@ function regis(){
         alert("tas mal")
     }
 
-    let texto=document.getElementById("texto").value;
-        texto.textContent = registro [0];
+    let texto=document.getElementById("texto").textContent = registro[0]
+
 
 }
