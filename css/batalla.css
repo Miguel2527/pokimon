@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/pixeloid-sans');
+
+body {
+  margin: 0;
+  padding: 0;
+background-image: url('../img/batalla.jpg');
+background-size:cover ;
+  font-family: 'Pixeloid Sans', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: #222;
+  margin: 30px 0;
+  text-shadow: 2px 2px #999;
+}
+
+.battle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 700px;
+    padding: 0px;
+    position: relative;
+  }
+
+.pokemon {
+  width: 40%;
+  background: #ffffffcc;
+  border: 4px dashed #555;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 8px 8px 0 #ccc;
+  transition: transform 0.3s;
+}
+
+.pokemon:hover {
+  transform: scale(1.05);
+}
+
+.pokemon h3 {
+  font-size: 30px;
+  color: #444;
+}
+
+.pokemon p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+button {
+  font-family: 'Pixeloid Sans', sans-serif;
+  padding: 15px 40px;
+  font-size: 24px;
+  background-color: #ffcc00;
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: #ffe14d;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ffd700;
+}
+
+@media screen and (max-width: 768px) {
+  .battle-container {
+    flex-direction: column;
+  }
+
+  .pokemon {
+    width: 40%;
+  }
+}
+h2{
+    font-size: 60px;
+    color: white;
+}

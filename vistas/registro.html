@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POKIMON</title>
+    <script src="../js/registro.js"></script>
+    <link rel="stylesheet" href="../css/registro.css">
+    <link href="https://fonts.cdnfonts.com/css/pixeloid-sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="tittle-b">
+      <h1 id="pixel-title">RERGISTRO</h1>
+      </div>
+    <br />
+    <br />
+
+     <div class="login">
+      <div class="login-screen">
+         
+
+          <div class="login-form">
+              <div class="control-group">
+              <input type="text" class="login-field" value="" placeholder="Nombre y Apellido" id="name">
+              <label class="login-field-icon fui-user" for="login-name"></label>
+              </div>
+
+              <div class="control-group">
+              <input type="number" class="login-field" value="" placeholder="Edad" id="age">
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+              </div>
+
+              <div class="control-group">
+                <input type="number" class="login-field" value="" placeholder="Numero de Documento" id="iden">
+                <label class="login-field-icon fui-lock" for="login-pass"></label>
+                </div>
+
+              <div class="control-group">
+                <input type="email" class="login-field" value="" placeholder="Correo" id="email">
+                <label class="login-field-icon fui-lock" for="login-pass"></label>
+                </div>
+              
+
+                <div class="control-group">
+                  <input type="text" class="login-field" value="" placeholder="Usuario" id="usuario">
+                  <label class="login-field-icon fui-lock" for="login-pass"></label>
+                  </div>
+
+                  <div class="control-group">
+                    <input type="password" class="login-field" value="" placeholder="Contraseña" id="clave">
+                    <label class="login-field-icon fui-lock" for="login-pass"></label>
+                    </div>
+
+                  <div class="control-group">
+                    <input type="password" class="login-field" value="" placeholder="Confirmar Contraseña" id="clave2">
+                    <label class="login-field-icon fui-lock" for="login-pass"></label>
+                    </div>
+
+              <button class="btn btn-primary btn-large btn-block" onclick="regis()">Registrarse</button>
+              <a class="login-link" href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+      </div>
+  </div>
+      <div style="text-align: start;">
+              <p><h1>¡Bienvenido al mundo Pokémon, <span id="nombrep"></span>! 🌍⚡</h1>
+
+        Tu viaje comienza hoy. Con tan solo <span id="edadp"></span> años, estás listo para explorar este vasto mundo, capturar Pokémon y convertirte en un Maestro Pokémon.
+        Hemos registrado tu correo (<span id="correop"></span>) para enviarte actualizaciones sobre tu aventura. Tu usuario, [<span id="usuariop"></span>], ha sido creado exitosamente. Asegúrate de recordar tu contraseña para futuras sesiones.
+        ✨ ¡Prepárate para recibir tu primer Pokémon y enfrentar emocionantes batallas! ¿Estás listo para esta gran aventura? ¡Tu historia comienza ahora! 🔥🎮
+      </p>
+      </div>
+
+  </body>
+</html>

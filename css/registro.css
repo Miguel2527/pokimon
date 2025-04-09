@@ -1,0 +1,94 @@
+body{
+    background-image: url('../img/fondo13.webp');
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+    }
+    
+    *:focus {
+        outline: none;
+    }
+    body {
+    background-color: #000000;
+    }
+    .login {
+    margin: 20px auto;
+    width: 300px;
+    }
+    .login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 70px rgba(0, 0, 0, 0.651);
+
+    }
+    
+    .app-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #012516;
+    
+    }
+    .login-form {
+    text-align: center;
+    }
+    .control-group {
+    margin-bottom: 10px;
+    }
+    
+    input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    }
+    
+    input:focus {
+    border: 2px solid #00090f;
+    box-shadow: none;
+    }
+    
+    .btn {
+      border: 2px solid transparent;
+      background: #01422f;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+    
+    .btn:hover {
+      background-color: #64a17e;
+    }
+    
+    .login-link {
+      font-size: 12px;
+      color: #2a95ec;
+      display: block;
+        margin-top: 12px;
+    }
+    .tittle-b{
+        color: rgb(0, 0, 0);
+        font-family: 'Pixeloid Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        box-shadow: 10px 5px 70px rgb(0, 0, 0);
+        border: 0,5px solid rgb(0, 0, 0);
+      }
+
+

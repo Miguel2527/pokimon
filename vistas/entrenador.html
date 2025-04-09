@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>entrenador</title>
+    <script src="../js/entrenador.js"></script>
+    <link rel="stylesheet" href="../css/entrenador.css">
+    <link href="https://fonts.cdnfonts.com/css/pixeloid-sans" rel="stylesheet">
+
+</head>
+<body>
+    <br>
+    <div class="tittle-b">
+        <h2 id="pixel-title" style="font-size: 80px;">PREPARATE</h2>
+        </div>
+        <br>
+    <nav class="dropdownmenu">
+        <ul>
+          <li><a href="#">Entrenador</a>
+            <div class="container">
+                <h1 class="title-v">¡Elige tu Entrenador!</h1>
+                <div class="trainers">
+                  <div class="trainer-card">
+                    <img src="../img/cla.jpg" alt="Ash" />
+                    <div class="trainer-name">Clemont</div>
+                    <button class="select-btn" onclick="seleccionarEntrenador('Clemont')">Seleccionar</button>
+                  </div>
+                  <div class="trainer-card">
+                    <img src="../img/iris.webp" alt="Misty" />
+                    <div class="trainer-name">Iris</div>
+                    <button class="select-btn" onclick="seleccionarEntrenador('Iris')">Seleccionar</button>
+                  </div>
+                </div>
+              </div>
+        </li>
+          <li><a href="#">Pokemon</a>
+            <div class="container">
+                <h1 class="title-v">¡Elige tu Pokemon!</h1>
+              
+                <div class="trainers">
+              
+                  <div class="trainer-card">
+                    <img src="../img/pikachu.png" alt="Pikachu" />
+                    <div class="trainer-name">Pikachu</div>
+                    <button class="select-btn" onclick="seleccionarPokemon('Pikachu')">Seleccionar</button>
+                    <button class="select-btn" onclick="mostrarDetalle()">Detalles</button>
+                  
+                    <div id="detalle-pikachu" class="detalle" style="display: none;">
+                      <p><strong>Tipo:</strong>Eléctrico</p>
+                      <p><strong>Vida:</strong>200</p>
+                      <p><strong>Ataque:</strong>55</p>
+                      <p><strong>Defensa:</strong>50</p>
+                      <p><strong>Habilidad:</strong>Electricidad Estática</p>
+                    </div>
+                  </div>
+              
+                  <div class="trainer-card">
+                    <img src="../img/charmander.png" alt="Charmander" />
+                    <div class="trainer-name">Charmander</div>
+                    <button class="select-btn" onclick="seleccionarPokemon('Charmander')">Seleccionar</button>
+                    <button class="select-btn" onclick="mostrarDetalleC()">Detalles</button>
+
+
+
+                  <div id="detalle-charmander" class="detalle" style="display: none;">
+                    <p><strong>Tipo:</strong>Fuego</p>
+                    <p><strong>Vida:</strong>100</p>
+                    <p><strong>Ataque:</strong>52</p>
+                    <p><strong>Defensa:</strong>43</p>
+                    <p><strong>Habilidad:</strong>Mar de Llamas</p>
+                  </div> 
+                </div>
+                <div class="trainer-card">
+                    <img src="../img/Bulbasaur.png" alt="Bulbasaur" />
+                    <div class="trainer-name">Bulbasaur</div>
+                    <button class="select-btn" onclick="seleccionarPokemon('Bulbasaur')">Seleccionar</button>
+                    <button class="select-btn" onclick="mostrarDetalleB()">Detalles</button>
+
+
+
+                  <div id="detalle-Bulbasaur" class="detalle" style="display: none;">
+                    <p><strong>Tipo:</strong>Planta/Veneno</p>
+                    <p><strong>Vida:</strong>150</p>
+                    <p><strong>Ataque:</strong>49</p>
+                    <p><strong>Defensa:</strong>49</p>
+                    <p><strong>Habilidad:</strong>Espesura</p>
+                  </div>
+
+                </div>
+                <div class="trainer-card">
+                    <img src="../img/Squirtle.png" alt="Squirtle" />
+                    <div class="trainer-name">Squirtle</div>
+                    <button class="select-btn" onclick="seleccionarPokemon('Squirtle')">Seleccionar</button>
+                    <button class="select-btn" onclick="mostrarDetalleS()">Detalles</button>
+
+
+
+                  <div id="detalle-Squirtle" class="detalle" style="display: none;">
+                    <p><strong>Tipo:</strong>Agua</p>
+                    <p><strong>Vida:</strong>180</p>
+                    <p><strong>Ataque:</strong>48</p>
+                    <p><strong>Defensa:</strong>65</p>
+                    <p><strong>Habilidad:</strong>Torrente</p>
+                  </div>
+              
+                </div> 
+                <div class="trainer-card">
+                    <img src="../img/Eevee.png" alt="Eevee" />
+                    <div class="trainer-name">Eevee</div>
+                    <button class="select-btn" onclick="seleccionarPokemon('Eevee')">Seleccionar</button>
+                    <button class="select-btn" onclick="mostrarDetalleE()">Detalles</button>
+
+
+
+                  <div id="detalle-Eevee" class="detalle" style="display: none;">
+                    <p><strong>Tipo:</strong>Normal</p>
+                    <p><strong>Vida:</strong>220</p>
+                    <p><strong>Ataque:</strong>55</p>
+                    <p><strong>Defensa:</strong>50</p>
+                    <p><strong>Habilidad:</strong>Adaptabilidad</p>
+                  </div>
+              
+              </div> 
+        </li>
+        </ul>
+      </nav>
+      <center>
+        <button class="cont"  onclick="batalla()" >CONTINUAR</button>
+      </center>
+</body>
+</html>
